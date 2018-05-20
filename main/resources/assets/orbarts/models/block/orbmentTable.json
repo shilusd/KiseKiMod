@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "orbarts:blocks/orbmentTableSide",
+        "down": "orbarts:blocks/orbmentTableBottom",
+        "up": "orbarts:blocks/orbmentTableTop",
+        "north": "orbarts:blocks/orbmentTableSide",
+        "south": "orbarts:blocks/orbmentTableSide",
+        "east": "orbarts:blocks/orbmentTableSide",
+        "west": "orbarts:blocks/orbmentTableSide"
+    }
+}

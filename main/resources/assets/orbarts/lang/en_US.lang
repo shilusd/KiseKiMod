@@ -1,0 +1,47 @@
+itemGroup.orbartstab=Orb Arts Tab
+
+achievement.sepith=Sepith!
+achievement.sepith.desc=Get a sepith.
+achievement.orbmentTable=Ready For Orbment!
+achievement.orbmentTable.desc=Crafting an Orbment Table.
+
+item.sepithFire.name=Fire Sepith
+item.sepithWater.name=Water Sepith
+item.sepithWind.name=Wind Sepith
+item.sepithEarth.name=Earth Sepith
+item.sepithTime.name=Time Sepith
+item.sepithSpace.name=Space Sepith
+item.sepithMirage.name=Mirage Sepith
+
+item.sepithBag.name=Sepith Bag
+
+tile.oreFire.name=Fire Ore
+tile.oreWater.name=Water Ore
+tile.oreEarth.name=Earth Ore
+tile.oreWind.name=Wind Ore
+tile.oreTime.name=Time Ore
+tile.oreSpace.name=Space Ore
+tile.oreMirage.name=Mirage Ore
+
+item.zemuria.name=Zemuria
+tile.oreZemuria.name=Zemuria Ore
+item.zemuriaAxe.name=Zemuria Axe
+item.zemuriaPickaxe.name=Zemuria Pickaxe
+item.zemuriaHoe.name=Zemuria Hoe
+item.zemuriaSword.name=Zemuria Sword
+item.zemuriaSpade.name=Zemuria Spade
+
+item.longStick.name=Long Stick
+item.epee.name=epee
+
+item.holyFabrics.name=Holy Fabrics
+item.holyHelmet.name=Holy Helmet
+item.holyChestplate.name=Holy Chestplate
+item.holyLeggings.name=Holy Leggings
+item.holyBoots.name=Holy Boots
+
+tile.orbmentTable.name=Orbment Table
+
+item.foodSoup.name=Soup
+
+
