@@ -1,6 +1,6 @@
 package atusp.orbarts.item.circuit;
 
-//回路信息
+//锟斤拷路锟斤拷息
 public class CircuitInfo {
 	public String name;
 	public String description;
@@ -27,7 +27,7 @@ public class CircuitInfo {
 	//public CircuitInfo(){}
 
 	/**
-	 * 名称、描述、id(不要重复),等级,属性,需要的火、水、风、土、时、空、幻，提供的火、水、风、土、时、空、幻
+	 * 锟斤拷锟狡★拷锟斤拷锟斤拷锟斤拷id(锟斤拷要锟截革拷),锟饺硷拷,锟斤拷锟斤拷,锟斤拷要锟侥伙拷水锟斤拷锟界、锟斤拷锟斤拷时锟斤拷锟秸★拷锟矫ｏ拷锟结供锟侥伙拷水锟斤拷锟界、锟斤拷锟斤拷时锟斤拷锟秸★拷锟斤拷
 	 * @param name
 	 * @param description
 	 * @param circuitId

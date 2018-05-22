@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class SpaceCircuitsItem extends CircuitItem{
+public class SpaceCircuitsItem extends ItemCircuits{
 	public static final CircuitInfo saveEP_1 = new CircuitInfo("SaveEP 1","EP Cost -10%",601,1,"Space",0,0,0,0,10,20,10,0,0,0,0,1,2,1);
 	public static final CircuitInfo saveEP_2 = new CircuitInfo("SaveEP 2","EP Cost -20%",602,2,"Space",0,0,0,0,50,100,50,0,0,0,0,2,3,2);
 	public static final CircuitInfo saveEP_3 = new CircuitInfo("SaveEP 3","EP Cost -30%",603,3,"Space",0,0,0,0,100,200,100,0,0,0,0,3,4,3);
@@ -39,7 +39,7 @@ public class SpaceCircuitsItem extends CircuitItem{
 	//test
 	public ItemStack onItemRightClick(ItemStack stack, World worldIn, EntityPlayer playerIn) 
 	{
-		//²âÊÔÓÃ£¬Î´¿¼ÂÇ·þÎñÆ÷ºÍ¿Í»§¶Ë
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Î´ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿Í»ï¿½ï¿½ï¿½
 		if (list.size()==0) {
 			this.newNBTForItemStack(stack, this.NULL);
 		} else {

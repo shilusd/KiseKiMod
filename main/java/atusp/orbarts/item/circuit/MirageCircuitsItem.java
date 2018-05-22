@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class MirageCircuitsItem extends CircuitItem{
+public class MirageCircuitsItem extends ItemCircuits{
 	public static final CircuitInfo EP_1 = new CircuitInfo("EP 1","EP+25",701,1,"Mirage",0,0,0,0,10,10,20,0,0,0,0,1,1,2);
 	public static final CircuitInfo EP_2 = new CircuitInfo("EP 2","EP+50",702,2,"Mirage",0,0,0,0,50,50,100,0,0,0,0,2,2,3);
 	public static final CircuitInfo EP_3 = new CircuitInfo("EP 3","EP+100",703,3,"Mirage",0,0,0,0,100,100,200,0,0,0,0,3,3,4);
@@ -45,7 +45,7 @@ public class MirageCircuitsItem extends CircuitItem{
 	//test
 	public ItemStack onItemRightClick(ItemStack stack, World worldIn, EntityPlayer playerIn) 
 	{
-		//²âÊÔÓÃ£¬Î´¿¼ÂÇ·þÎñÆ÷ºÍ¿Í»§¶Ë
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Î´ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿Í»ï¿½ï¿½ï¿½
 		if (list.size()==0) {
 			this.newNBTForItemStack(stack, this.NULL);
 		} else {

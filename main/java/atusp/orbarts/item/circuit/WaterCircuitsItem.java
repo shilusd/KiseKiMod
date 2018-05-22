@@ -11,7 +11,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class WaterCircuitsItem extends CircuitItem{
+public class WaterCircuitsItem extends ItemCircuits{
 	public static final CircuitInfo hp_1 = new CircuitInfo("HP 1","HP+2",201,1,"Water",0,20,0,0,0,0,0,0,1,0,0,0,0,0);
 	public static final CircuitInfo hp_2 = new CircuitInfo("HP 2","HP+4",202,2,"Water",0,200,0,0,0,0,0,0,3,0,0,0,0,0);
 	public static final CircuitInfo hp_3 = new CircuitInfo("HP 3","HP+8",203,3,"Water",0,400,0,0,0,0,0,0,5,0,0,0,0,0);
@@ -59,7 +59,7 @@ public class WaterCircuitsItem extends CircuitItem{
 			OrbArtsMain.network.sendTo(p,(EntityPlayerMP)playerIn);
 		}
 		
-		//²âÊÔÓÃ£¬Î´¿¼ÂÇ·þÎñÆ÷ºÍ¿Í»§¶Ë
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Î´ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿Í»ï¿½ï¿½ï¿½
 		if (list.size()==0) {
 			this.newNBTForItemStack(stack, this.NULL);
 		} else {

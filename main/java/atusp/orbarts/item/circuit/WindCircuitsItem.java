@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class WindCircuitsItem extends CircuitItem{
+public class WindCircuitsItem extends ItemCircuits{
 	public static final CircuitInfo dodge_1 = new CircuitInfo("Dodge 1","AGL+3%",301,1,"Wind",0,0,20,0,0,0,0,0,0,1,0,0,0,0);
 	public static final CircuitInfo dodge_2 = new CircuitInfo("Dodge 2","AGL+5%",302,2,"Wind",0,0,200,0,0,0,0,0,0,3,0,0,0,0);
 	public static final CircuitInfo dodge_3 = new CircuitInfo("Dodge 3","AGL+7%",303,3,"Wind",0,0,400,0,0,0,0,0,0,5,0,0,0,0);
@@ -47,7 +47,7 @@ public class WindCircuitsItem extends CircuitItem{
 	//test
 	public ItemStack onItemRightClick(ItemStack stack, World worldIn, EntityPlayer playerIn) 
 	{
-		//²âÊÔÓÃ£¬Î´¿¼ÂÇ·þÎñÆ÷ºÍ¿Í»§¶Ë
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Î´ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿Í»ï¿½ï¿½ï¿½
 		if (list.size()==0) {
 			this.newNBTForItemStack(stack, this.NULL);
 		} else {

@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class TimeCircuitsItem extends CircuitItem{
+public class TimeCircuitsItem extends ItemCircuits{
 	public static final CircuitInfo action_1 = new CircuitInfo("Action 1","SPD+5%,Spell-2%,Cd-5%",501,1,"Time",0,0,0,0,20,0,0,0,0,0,0,1,0,0);
 	public static final CircuitInfo action_2 = new CircuitInfo("Action 2","SPD+10%,Spell-4%,Cd-10%",502,2,"Time",0,0,0,0,200,0,0,0,0,0,0,3,0,0);
 	public static final CircuitInfo action_3 = new CircuitInfo("Action 3","SPD+15%,Spell-6%,Cd-15%",503,3,"Time",0,0,0,0,400,0,0,0,0,0,0,5,0,0);
@@ -41,7 +41,7 @@ public class TimeCircuitsItem extends CircuitItem{
 	//test
 	public ItemStack onItemRightClick(ItemStack stack, World worldIn, EntityPlayer playerIn) 
 	{
-		//²âÊÔÓÃ£¬Î´¿¼ÂÇ·þÎñÆ÷ºÍ¿Í»§¶Ë
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Î´ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿Í»ï¿½ï¿½ï¿½
 		if (list.size()==0) {
 			this.newNBTForItemStack(stack, this.NULL);
 		} else {

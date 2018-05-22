@@ -6,7 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class EarthCircuitsItem extends CircuitItem{
+public class EarthCircuitsItem extends ItemCircuits{
 	public static final CircuitInfo defend_1 = new CircuitInfo("Defend 1","DEF+5%",401,1,"Earth",0,0,0,20,0,0,0,0,0,0,1,0,0,0);
 	public static final CircuitInfo defend_2 = new CircuitInfo("Defend 2","DEF+10%,STR-5%",402,2,"Earth",0,0,0,200,0,0,0,0,0,0,3,0,0,0);
 	public static final CircuitInfo defend_3 = new CircuitInfo("Defend 3","DEF+15%,STR-10%",403,3,"Earth",0,0,0,400,0,0,0,0,0,0,5,0,0,0);
@@ -45,7 +45,7 @@ public class EarthCircuitsItem extends CircuitItem{
 	//test
 	public ItemStack onItemRightClick(ItemStack stack, World worldIn, EntityPlayer playerIn) 
 	{
-		//²âÊÔÓÃ£¬Î´¿¼ÂÇ·þÎñÆ÷ºÍ¿Í»§¶Ë
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Î´ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿Í»ï¿½ï¿½ï¿½
 		if (list.size()==0) {
 			this.newNBTForItemStack(stack, this.NULL);
 		} else {
